@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter-tight);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* For now we dont use this, using light mode first */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: #171717;
+  background: #ffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
