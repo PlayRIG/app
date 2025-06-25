@@ -1,9 +1,5 @@
 @import "tailwindcss";
 
-@theme {
-  --font-sans: var(--font-inter-tight);
-}
-
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -20,5 +16,4 @@
 body {
   color: #171717;
   background: #ffff;
-  font-family: Arial, Helvetica, sans-serif;
 }
